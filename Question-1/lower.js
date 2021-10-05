@@ -20,6 +20,8 @@ function lowerCaseWords(x){
 
 	return p2
 }
+
+//Re-commited after fixing GitHub Account
 const mixedArray = ['PIZZA', 10, true, 25, false, 'Wings'];
 lowerCaseWords(mixedArray).then(success => {
 	console.log(success)
