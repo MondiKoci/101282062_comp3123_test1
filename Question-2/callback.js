@@ -13,6 +13,7 @@ function delayedException(delay){
 }
 
 //Calling functions
+
 resolvedPromise(500).then((message) => {
     console.log(message);
 })
